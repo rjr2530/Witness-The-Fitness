@@ -1,0 +1,58 @@
+* {	box-sizing: border-box;
+margin: 0px;
+}
+
+body { font-family: Impact, Charcoal, sans-serif;
+}
+
+header {	
+	  background: -webkit-linear-gradient(black, red); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(black, red); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(black, red); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(black, red); /* Standard syntax */ 
+	  height: 75px;
+	  width: 100%;
+	  text-align: center;
+	  border-bottom: white solid 2px;
+}
+
+header h1 {	font-size: 60px;
+		text-shadow: 3px 3px white;
+}
+
+nav { background-color: black;
+  height: 35px;
+  width:100%;
+  padding: 0px;
+}
+
+nav ul {	
+		color: white;
+		text-align: center;
+}
+
+nav ul li { float: left;
+		list-style: none;
+		font-size: 25px;
+		position: relative;
+		width: 170px;
+}
+
+nav ul li a { text-decoration: none;
+		  color: white;
+}
+
+nav ul li:hover { background-color:red;
+}
+
+nav ul ul { position: absolute;
+		padding: 0px;
+		background-color: black;	
+		display: none;					
+}
+
+nav ul li:hover ul { display: block;	
+}
+
+nav ul li:hover ul li:hover { background-color: grey;	
+}
